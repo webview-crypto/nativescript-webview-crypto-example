@@ -1,0 +1,7 @@
+<Page xmlns="http://schemas.nativescript.org/tns.xsd" navigatingTo="navigatingTo" xmlns:WebViewCrypto="tns_modules/nativescript-webview-crypto">
+  <StackLayout>
+    <WebViewCrypto:WebViewCrypto />
+    <Button text="Click to run crypto" tap="{{ onTap }}" />
+    <Label text="{{ message }}" class="message" textWrap="true"/>
+  </StackLayout>
+</Page>
