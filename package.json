@@ -4,7 +4,7 @@
   "readme": "NativeScript Application",
   "repository": "<fill-your-repository-here>",
   "scripts": {
-    "prepublish": "tns platform add ios; tns platform add android; true"
+    "prepublish": "tns platform add ios; tns platform add android; tns install; true"
   },
   "nativescript": {
     "id": "org.nativescript.webviewcryptoexample",
