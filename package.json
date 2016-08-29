@@ -16,15 +16,15 @@
     }
   },
   "dependencies": {
-    "nativescript-webview-crypto": "file:../nativescript-webview-crypto",
-    "tns-core-modules": "^2.2.1"
+    "nativescript-webview-crypto": "0.0.1",
+    "tns-core-modules": "2.2.1"
   },
   "devDependencies": {
     "babel-traverse": "6.13.0",
     "babel-types": "6.13.0",
     "babylon": "6.9.0",
     "lazy": "1.0.11",
-    "nativescript-dev-typescript": "^0.3.0",
-    "typescript": "^1.8.10"
+    "nativescript-dev-typescript": "0.3.0",
+    "typescript": "1.8.10"
   }
 }
