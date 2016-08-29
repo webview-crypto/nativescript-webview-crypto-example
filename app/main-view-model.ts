@@ -76,6 +76,8 @@ export class HelloWorldModel extends observable.Observable {
           decryptedString += String.fromCharCode(decryptedBytes[i]);
       }
       this.addStatus(`Decrypted: ${decryptedString}`);
+    }).catch(e => {
+      console.error(e);
     });
   }
 }
