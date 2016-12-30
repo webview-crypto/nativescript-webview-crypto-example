@@ -22,7 +22,6 @@
     "babylon": "6.14.1",
     "lazy": "1.0.11",
     "nativescript-dev-typescript": "0.3.5",
-    "nativescript-webview-crypto": "file:../nativescript-webview-crypto",
     "typescript": "2.1.4"
   }
 }

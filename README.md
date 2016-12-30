@@ -7,7 +7,7 @@ end to tend test of [`nativescript-webview-crypto`](https://github.com/saulshana
 ## Install
 
 1. [Get setup with NativeScript](http://docs.nativescript.org/start/quick-setup)
-2. `npm install`
+2. `tns install`
 
 ## Usage
 
