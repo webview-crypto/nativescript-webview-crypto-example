@@ -3,28 +3,26 @@
   "license": "SEE LICENSE IN <your-license-filename>",
   "readme": "NativeScript Application",
   "repository": "<fill-your-repository-here>",
-  "scripts": {
-    "prepublish": "tns platform add ios; tns platform add android; tns install; true"
-  },
   "nativescript": {
     "id": "org.nativescript.webviewcryptoexample",
-    "tns-android": {
-      "version": "2.4.1"
-    },
     "tns-ios": {
       "version": "2.4.0"
+    },
+    "tns-android": {
+      "version": "2.4.1"
     }
   },
   "dependencies": {
-    "nativescript-webview-crypto": "0.0.1",
-    "tns-core-modules": "^2.4.0"
+    "nativescript-webview-crypto": "0.1.4",
+    "tns-core-modules": "2.4.4"
   },
   "devDependencies": {
-    "babel-traverse": "6.13.0",
-    "babel-types": "6.13.0",
-    "babylon": "6.9.0",
+    "babel-traverse": "6.21.0",
+    "babel-types": "6.21.0",
+    "babylon": "6.14.1",
     "lazy": "1.0.11",
-    "nativescript-dev-typescript": "0.3.0",
-    "typescript": "^1.8.10"
+    "nativescript-dev-typescript": "0.3.5",
+    "nativescript-webview-crypto": "file:../nativescript-webview-crypto",
+    "typescript": "2.1.4"
   }
 }
